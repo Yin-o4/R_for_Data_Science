@@ -586,11 +586,11 @@ penguins %>%
 penguins %>%
   summarize(
     length = mean(bill_length_mm),
-    depth  = mean(bill_length_mm)
+    depth  = mean(bill_depth_mm)
   )
 ```
 
-长度和厚度惊人的相等。我是不是发现新大陆了？
+
 
 
 ### across()函数
